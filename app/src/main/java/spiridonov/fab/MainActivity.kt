@@ -3,13 +3,10 @@ package spiridonov.fab
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
 import android.os.Bundle
-import android.view.MotionEvent
 import android.view.View
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import spiridonov.fab.databinding.ActivityMainBinding
-
 
 class MainActivity : AppCompatActivity() {
 
