@@ -4,7 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#AACB95"
     tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/haha" />
 
     <Button
         android:id="@+id/btn_reset_menu"
@@ -24,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="32dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
         android:contentDescription="@string/menu_button"
         android:focusable="true"
@@ -136,6 +148,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/settings_fab"
         app:layout_constraintEnd_toStartOf="@+id/settings_fab"
         app:layout_constraintTop_toTopOf="@+id/settings_fab" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
