@@ -65,6 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="History"
+        android:textColor="@color/white"
         android:visibility="gone"
         tools:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/history_fab"
@@ -91,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="Search"
+        android:textColor="@color/white"
         android:visibility="gone"
         tools:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/search_fab"
@@ -119,6 +121,7 @@
         android:visibility="gone"
         tools:visibility="visible"
         android:text="Home"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/home_fab"
         app:layout_constraintEnd_toStartOf="@+id/home_fab"
         app:layout_constraintTop_toTopOf="@+id/home_fab" />
@@ -145,6 +148,7 @@
         tools:visibility="visible"
         android:layout_marginEnd="8dp"
         android:text="Settings"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/settings_fab"
         app:layout_constraintEnd_toStartOf="@+id/settings_fab"
         app:layout_constraintTop_toTopOf="@+id/settings_fab" />
